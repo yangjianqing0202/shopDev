@@ -1,0 +1,83 @@
+/*******************
+ 日期：2017/09/22
+ 作者：杨健青
+ 说明：用户信息的css
+*/
+
+
+.wrap { width:1020px; height:auto; overflow:hidden; margin:0 auto; background: #DBDBDB; }
+
+/*页面左侧导航栏*/
+.wrap .ress_nav { float:left; width: 110px;height: auto; overflow:hidden; padding:21px 0 0 24px; }
+.wrap .ress_nav h1 { width: 100%; height: 30px; line-height: 30px;
+    font-size: 14px; font-weight: bold;
+    color: #000; margin-bottom:5px;display:block;
+
+}
+.wrap .ress_nav .nav_li { width:100%; height:24px; line-height:24px; font-size:14px; color:#6C6C6C; cursor:pointer;
+    text-align: left;
+}
+
+/*页面右侧*/
+.ress_main { float:right; width:830px; height:auto; overflow:hidden; background:#fff; padding:20px 20px 0 20px; }
+/*用户信息标题*/
+.ress_main .user_title { width:100%; height:30px; }
+.ress_main .user_title span { font-size: 14px;line-height: 20px; margin-left:10px; cursor:pointer}
+.ress_main .user_title .red { color:#E4393C; font-weight:bold; border-bottom:2px solid #E4393C; }
+
+/*用户信息内容*/
+.info_content { width:97%; border:3px solid #E6E6E6; padding:1.5%; font-size:14px; clear:both; }
+.info_content li { margin-bottom:20px; overflow:hidden; }
+.info_content li label,.info_content li span { display:inline-block; }
+.info_content li label { width:95px; text-align:right; }
+.info_content li label i { color:#f00; }
+.info_content li a { color:#0844A5; margin:0 5px 0 30px; }
+.info_content li .user_info { color:#999; }
+.info_content li span input.nick_name { width:140px; height:30px; border:1px solid #ccc; padding-left:10px; color:#666; font-weight:bold; }
+.info_content li span label.sex_label { text-align:left; width:30px; cursor:pointer; }
+.info_content li span select.birthday { width:70px; height:30px; border:1px solid #666; }
+.info_content li span .birthday_span { margin:0 10px; color:#666; }
+.info_content li .photo { position:relative;}
+.info_content li .photo .photo_input { position:absolute; top:0; left:0; width:100px; height:30px;
+    filter:alpha(opacity=0);
+    -moz-opacity:0;
+    -khtml-opacity: 0;
+    opacity: 0;
+}
+.info_content li .photo .cover_file { width:100px; height:30px; border-radius:4px; background:#ddd; color:#000;
+    text-align:center; line-height:30px;
+}
+
+.info_content li .like_content { height:25px;}
+.info_content li .like_span { display: block; margin-left:12.2%; }
+.info_content li span dl.like dd { float:left; height:34px; line-height:34px; border:1px solid #666;
+    margin:0 10px 10px 0; padding:0 10px; cursor:pointer;
+    transition:All 0.3s ease-in-out;
+    -webkit-transition:All 0.3s ease-in-out;
+    -moz-transition:All 0.3s ease-in-out;
+    -o-transition:All 0.3s ease-in-out;
+}
+.info_content li span dl.like dd:hover { background: #ccc; color: #f00;}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

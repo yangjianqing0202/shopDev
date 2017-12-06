@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <title>0928-购物车-电商网站</title>
+        <link rel="stylesheet" type="text/css" href="css/reset.css" />
+        <link rel="stylesheet" type="text/css" href="css/base.css" />
+        <link rel="stylesheet" type="text/css" href="css/page/shoppingCart.css" />
+        <link rel="stylesheet" type="text/css" href="css/component.css" />
+    </head>
+    <body>
+        <div class="all_goodsNum">
+            <label>全部商品
+                <span id="allGoodsId">22</span>
+            </label>
+        </div>
+        <div class="cart_column">
+            <ul>
+                <li class="col1">
+                    <input type="checkbox" class="topAllSelectBtn" checked />
+                    <label>全选</label>
+                </li>
+                <li class="col2">商品</li>
+                <li class="col3">单价</li>
+                <li class="col4">数量</li>
+                <li class="col5">小计</li>
+                <li class="col6">操作</li>
+            </ul>
+        </div>
+
+        <!--商品列表内容-->
+        <div id="shopCartMainId" class="cart_wrap"></div>
+
+        <!--商品底部-->
+        <div class="cart_footer">
+            <input type="checkbox" class="select_all topAllSelectBtn" checked />
+            <label class="text all_checkbox ">全选</label>
+            <span class="text cursor del_goods">删除选中的商品</span>
+            <input type="button" class="goto_play" value="去结算" />
+            <div class="pay_num">
+                <label>已选择<i id="selectGoodsNumId">4</i>件商品</label>
+                <span>总价：<i  id="goodsTotalMoneyId">￥4568745.00</i></span>
+                <p>已节省：-￥112.00</p>
+            </div>
+        </div>
+        <!--底部  END-->
+    </body>
+</html>
+<script type="text/javascript" src="js/jquery-1.7.2.js" ></script>
+<script type="text/javascript" src="js/config.js" ></script>
+<script type="text/javascript" src="js/common.js" ></script>
+<script type="text/javascript" src="js/tpl/cartTPL.js" ></script>
+<script type="text/javascript" src="js/plus/checkSkin.js" ></script>
+<script type="text/javascript" src='js/shoppingCart.js'></script>

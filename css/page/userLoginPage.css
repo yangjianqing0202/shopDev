@@ -1,0 +1,91 @@
+/****************
+日期：2017.9.21
+作者：杨健青
+说明：登录页面
+*/
+
+/*header 头部*/
+header { width:100%; height:auto; overflow:hidden;}
+header .header_box { width:1000px; height:80px; margin:0 auto; overflow:hidden; }
+header .logo { background:url('../../img/page/userHeaderImg.jpg')no-repeat center; width:290px; height:80px; }
+
+
+/*页面主体内容，表单注册登录*/
+.wrap { width:100%; height:auto; overflow:hidden; background: #e93854; border-top: 1px solid #AB0616;}
+.wrap .login_box { width:1000px; height:475px; margin:0 auto; overflow:hidden;
+    background: url('../../img/page/login_bg.png') no-repeat center;
+}
+
+/*登录框*/
+.login_main { width:345px; height:360px; background: #fff; float:right; margin:40px 15px 0 0; position:relative;}
+.login_title { width:100%; height:55px; border-bottom:1px solid #ededed; clear:both;}
+.login_title span { width:170px; height:55px; float:left; text-align:center; line-height:55px; font-size:18px; cursor:pointer;}
+.login_title i { width:1px; height:18px; background:#ededed; float:left; margin-top:18px; }
+
+/*登录框主体内容*/
+.content_box { width:305px; height:40px; margin:0 auto; border:1px solid #959595; position:relative; }
+.content_box label,.content_box input { float:left; }
+.content_box label {
+    width:38px;
+    height:40px;
+    border-right: 1px solid #959595;
+    background-color:#ebebeb;
+    background-image:url('../../img/widget/icons.png');
+    background-repeat:no-repeat;
+}
+.content_box .label_user { background-position: 11px 10px; }
+.content_box .label_pass { background-position: 11px -38px; }
+.content_box input { width: 253px; height: 40px; color:#333; font-size: 14px; font-weight:normal; padding-left: 11px;}
+.content_box i { width: 13px; height: 13px; position:absolute; top:50%; right:10px; cursor:pointer;
+    background: url('../../img/widget/icons.png') no-repeat 0 -102px;
+    transform:translate(0%, -50%);
+    -webkit-transform:translate(0%, -50%);
+    -moz-transform:translate(0%, -50%);
+    -ms-transform:translate(0%, -50%);
+    -o-transform:translate(0%, -50%);
+}
+
+/*勾选自动登录*/
+.check_box { width:304px; height: 22px; margin:0 auto; font-size:14px; }
+.check_box input, .check_box label { float:left; }
+.check_box input { margin: 3px 8px 0 0; }
+.check_box a { float:right; }
+.check_box a:link { float: right;text-decoration: none; }
+.check_box a:hover{
+    color: #f00;
+    text-decoration: underline;
+}
+
+/*登录按钮*/
+.login_button { width:307px; height: 34px; margin:0 auto; display: block; background: #D21A1C;
+    border:1px solid #AA1314;
+    font-size: 20px;
+    color: #fff;
+    letter-spacing:24px;
+    text-indent:24px;
+    cursor:pointer;
+}
+
+/*第三方登录与注册*/
+.login_footer {
+    position: absolute;
+    left:0;
+    bottom:0;
+    width:100%;
+    height:50px;
+    background: #FAFAFA;
+    border-top: 1px solid #EDEDED;
+}
+
+.login_footer span { float:left; height:20px; line-height:20px; font-size: 14px; color: #000; cursor:pointer;
+    background: url('../../img/widget/icons.png') no-repeat;
+    padding-left: 24px;
+    margin-top:16px;
+}
+.login_footer .qq { background-position:0 -143px; margin-left:21px; }
+.login_footer i { width:1px; height: 11px; float:left; margin:20px 11px 0 14px; background: #BAABBA; font-size:1px; overflow:hidden; }
+.login_footer .WeChat { background-position:0 -168px; }
+.login_footer a { float:right; margin:15px 21px 0 0; color: #8B0D0D;font-size: 14px;padding-left: 21px;
+    background: url('../../img/widget/icons.png') no-repeat 0 -193px;
+}
+.login_footer a:hover { text-decoration:underline; }

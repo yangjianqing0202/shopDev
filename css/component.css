@@ -1,0 +1,72 @@
+/****************
+日期：2017.9.20
+作者：杨健青
+说明：通用的全站-公共组件样式
+*/
+
+.submit {
+    height:30px; color:#333; border-radius:4px; cursor:pointer;
+    font-size:12px; text-align:center; border:1px solid #BFD6AF;
+    background: url('../img/widget/bg_1.jpg') repeat-x; padding:0 16px;
+}
+
+/* herder头 模块*/
+
+header { width:1190px; height:170px; overflow:hidden; margin:0 auto; position:relative; }
+
+/*左侧logo*/
+.logo{ width:190px; height:170px; background: url(../../img/page/logo.png) no-repeat center; float:left; }
+
+/*右侧上部导航*/
+.find_nev { width:1000px; height:30px; line-height:30px; overflow:hidden; float:left;
+    border-bottom:1px solid #ddd; background:#e3e4e5; font-size:12px; color:#999;
+}
+.find_nev i.coordinate {display: inline-block; height:20px; line-height:15px; padding-left:20px;
+    background: url('../../img/widget/icons.png') no-repeat 0 -232px; }
+.find_nev span.top_reg { float:right; }
+.find_nev span.top_reg label { cursor:pointer; }
+.find_nev ul { float:right; }
+.find_nev ul li { display: inline-block; height:10px; line-height: 9px; padding:0 12px; border-left: 1px solid #6A6A6A; cursor:pointer;}
+.find_nev ul li.nev_arrow { display: inline-block; margin-right:12px;
+    background:url(../../img/widget/arrow.png) no-repeat right center;
+}
+
+/*右侧下部查找内容*/
+.find_search { width:790px; height: 45px; position:absolute; top: 55px; left: 320px;}
+
+/*查找内容和按钮*/
+.find_search .find_content,.find_search .find_content input{ float:left; }
+.find_search .find_content .find_text { width:495px; height:33px; padding-left:5px; color:#a49898;
+    font-size:12px; border:1px solid #f10215;
+}
+.find_content .find_btn { width:50px; height:35px;
+    background-image: url('../../img/widget/icons.png');
+    background-repeat: no-repeat;
+    background-color: #F10215;
+    background-position: 16px -265px;
+}
+
+/*我的购物车，图标*/
+.shop_car { float:right; width:190px; height:35px; cursor:pointer; font-size:12px;
+    border:1px solid #666;  line-height: 35px; position:relative; text-align: center;
+    background-image:url('../../img/widget/icons.png');
+    background-repeat: no-repeat;
+    background-color:#fff;
+    background-position: 35px -310px;
+
+}
+.shop_car i { width:15px; height:15px; line-height:15px; border-radius:100%;
+    text-align:center; background:#f00; color:#fff; font-size: 12px;
+    position:absolute; top:5px; right:40px;
+}
+
+/*右侧下部列表*/
+.column_menu { width:795px; height:20px; position:absolute;
+    left:200px; bottom:10px;
+}
+.column_menu li { display:inline-block; font-size: 16px; font-weight: bold;
+    padding:0 15px; position:relative; cursor:pointer;
+}
+.column_menu i { display:inline-block; width:1px; height: 10px; background: #666; }
+.column_menu li em.hot { position: absolute;top: -12px;right: -9px; }
+.column_menu li p { font-weight: bold; }

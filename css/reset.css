@@ -1,0 +1,30 @@
+/****************
+日期：2017.9.20
+作者：杨健青
+说明：全局css样式初始化
+*/
+
+html, body, div, span, h1, h2, h3, h4, h5, h6, p, blockquote,
+del, em, img, ins,input, strong, sub, sup, var, b, i, dl, dt, dd, ol,
+ul, li, fieldset, form, label, table, tbody, tfoot, thead, tr,
+th, td, h1,h2,h3,h4,h5,h6,em,i {
+    font-weight: normal;
+    font-style: normal;
+    margin:0;
+    padding:0;
+    border:0;
+    font-family: '微软雅黑','宋体';
+    outline: 0;
+    font-size:14px;
+}
+ul,ol,li {
+    list-style: none;
+}
+a {
+    color: #666;
+    text-decoration: none;
+    outline: 0;
+}
+a:hover {
+    text-decoration: none
+}

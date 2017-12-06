@@ -1,0 +1,57 @@
+/*******************
+ 日期：2017/09/21
+ 作者：杨健青
+ 说明：地址列表的css
+*/
+
+
+.wrap { width:1020px; height:565px; margin:0 auto; background: #DBDBDB; }
+
+/*页面左侧导航栏*/
+.wrap .ress_nav { float:left; width: 110px;height: 530px; padding:21px 0 0 24px; }
+.wrap .ress_nav h1 { width: 100%; height: 30px; line-height: 30px;
+    font-size: 14px; font-weight: bold;
+    color: #000; margin-bottom:5px;display:block;
+
+}
+.wrap .ress_nav li { width:100%; height:24px; line-height:24px; font-size:14px; color:#6C6C6C; cursor:pointer;
+    text-align: left;
+}
+
+/*页面右侧*/
+.wrap .ress_main { float:right; width:830px; height:480px; background:#fff; padding:20px 20px 0 20px; }
+
+/*添加收货地址*/
+.wrap .ress_main .add_ress { clear: both; height: 30px; }
+.wrap .ress_main .add_ress .add_btn { width:115px; height:30px; color:#333; font-size:12px;
+    text-align:center; border:1px solid #BFD6AF; border-radius:4px;
+    background: url('../../img/widget/bg_1.jpg') repeat-x;
+}
+.wrap .ress_main .span { font-size:14px; line-height:28px; display:inline-block; }
+
+/*地址详情*/
+.ress_info { width:97%; padding:1.5%; height:210px; border:3px solid #e6e6e6; clear:both; position:relative; }
+.wrap .ress_main .ress_info .title_name { color: #000; font-weight: bold; padding-right: 15px; font-size:14px; }
+.ress_info i { width:14px; height:12px; cursor:pointer; margin:5px 25px 0 0; display: inline-block;
+    background: url('../../img/widget/addressIcon.png') no-repeat;
+}
+.ress_info .ress_btn { background: #FFAA45 ;color: #fff; padding:0 2px; font-size:14px;}
+.info_content li { height:20px; margin-bottom:10px;  }
+.info_content li label, .info_content li span { font-size:14px; display:inline-block }
+.info_content li label { width:75px; color:#999; text-align: right; }
+.info_content li span { color:#333; text-align: left; }
+.ress_info .cross { position:absolute; top:5px; right:-15px; width:14px; height:14px;
+    background: url('../../img/widget/icons.png') no-repeat 0 -102px; cursor:pointer;
+}
+.ress_info p { position: absolute; right: 25px; bottom:15px; color: #005EA7; font-size: 14px; }
+
+
+
+
+
+
+
+
+
+
+
